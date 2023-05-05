@@ -45,6 +45,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\NewCalendarView.xaml.cs">
+	    <SubType>Code</SubType>
+	    <DependentUpon>NewCalendarView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\NewDaysView.xaml.cs">
+	    <DependentUpon>NewDaysView.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\DayView.xaml.cs">
 	    <DependentUpon>DayView.xaml</DependentUpon>
 	  </Compile>
@@ -58,6 +65,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="CalendarView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NewCalendarView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\NewDaysView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\DaysView.xaml">
